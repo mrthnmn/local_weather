@@ -38,7 +38,6 @@
          var speed = Math.round(responseObj.list[0].wind.speed * 3.6);
          var direction = responseObj.list[0].wind.deg;
 
-         // Convert degrees to ordinal points.
          if (direction > 338.5 || direction < 22.5) {
            direction = "N";
          } else
